@@ -35,3 +35,8 @@ console.log(typeof function(){});  // return function
 // check type of object
 
 console.log(typeof {});
+
+
+var x = 24;
+var y = "Hello";
+console.log(x + y);  // Returns "24Hello"; 
