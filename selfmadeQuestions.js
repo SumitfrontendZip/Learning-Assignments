@@ -23,3 +23,12 @@ console.log(check)  // false
 console.log(typeof null);
 
 
+// what is type of array
+
+console.log(typeof Array); // return function
+
+// what is type of funtion
+
+console.log(typeof function(){});  // return function
+
+
