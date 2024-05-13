@@ -32,3 +32,6 @@ console.log(typeof Array); // return function
 console.log(typeof function(){});  // return function
 
 
+// check type of object
+
+console.log(typeof {});
