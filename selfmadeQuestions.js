@@ -44,9 +44,9 @@
 
 // var x = 0;
 // var y = 23;
-        
+
 // if(x) { console.log(x) }   // The code inside this block will not run since the value of x is 0(Falsy)  
-        
+
 // if(y) { console.log(y) }    // The code inside this block will run since the value of y is 23 (Truthy)
 
 
@@ -59,7 +59,7 @@
 //     },
 //     perimeter: () => 2 * Math.PI * this.radius,
 //   };
-  
+
 //   console.log(shape.diameter());
 //   console.log(shape.perimeter());
 
@@ -87,12 +87,12 @@
 //       this.newColor = newColor;
 //       return this.newColor;
 //     }
-  
+
 //     constructor({ newColor = 'green' } = {}) {
 //       this.newColor = newColor;
 //     }
 //   }
-  
+
 //   const freddie = new Chameleon({ newColor: 'purple' });
 //   console.log(freddie.colorChange('orange'));
 
@@ -109,35 +109,74 @@
 // function bark() {
 //     console.log('Woof!');
 //   }
-  
+
 //   bark.animal = 'dog';
 
 
 /////////////////////////////////////////////////////////////
 
 
-function Person(firstName, lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-  }
+// function Person(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//   }
+
+//   const member = new Person('Lydia', 'Hallie');
+//   Person.getFullName = ()=> {
+//     return `${this.firstName} ${this.lastName}`;
+//   };
+
+// //   console.log(member.getFullName());
+
+
+//   class car{
+//     tyre(){
+//         console.log("Tyres are running")
+//     }
+//   }
+
+//   let carData = new car()
+//   carData.tyre();
+//   carData.wheel = ()=>{
+//     console.log("One wheel is running");
+//   }
+//   carData.wheel();
+
+
+
+////////////////////////////////////////////////////
+
+
+// function Person(firstName, lastName) {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+
+//     // not return any value
+    
+// }
+
+// const lydia = new Person('Lydia', 'Hallie');
+// const sarah = Person('Sarah', 'Smith');
+
+// console.log(lydia);
+// console.log(sarah);
+
+
+// function sum(a, b) {
+//     return a + b;
+//   }
   
-  const member = new Person('Lydia', 'Hallie');
-  Person.getFullName = ()=> {
-    return `${this.firstName} ${this.lastName}`;
-  };
+//   sum(1, '2');  // return but not print any things
+
+/////////////////////////////////////////////////////////
+
+// function getPersonInfo(one, two, three) {
+//     console.log(one);
+//     console.log(two);
+//     console.log(three);
+//   }
   
-//   console.log(member.getFullName());
-
-
-  class car{
-    tyre(){
-        console.log("Tyres are running")
-    }
-  }
-
-  let carData = new car()
-  carData.tyre();
-  carData.wheel = ()=>{
-    console.log("One wheel is running");
-  }
-  carData.wheel();
+//   const person = 'Lydia';
+//   const age = 21;
+  
+//   getPersonInfo`${person} is ${age} years old`;
