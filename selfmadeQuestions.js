@@ -236,3 +236,22 @@ const person = { name: 'Lydia' };
 
 // console.log(sayHi.call(person, 21));
 // console.log(sayHi.bind(person, 21));
+
+
+// function sayHi() {
+//     return (() => 0)();
+//   }
+  
+//   console.log(typeof sayHi());
+
+
+////////////////////////////////////////////
+
+
+
+// const numbers = [1, 2, 3];
+// numbers[10] = 11;
+// console.log(numbers);
+
+
+
