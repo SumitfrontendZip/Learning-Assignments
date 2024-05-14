@@ -255,3 +255,23 @@ const person = { name: 'Lydia' };
 
 
 
+// const a = [[0, 1], [2, 3]].reduce(
+//     (acc, cur) => {
+//       return acc.concat(cur);
+//     },
+//     [1, 2],
+//   );
+
+//   console.log(a);
+
+
+
+function* generator(i) {
+    yield i;
+    yield i * 2;
+  }
+  
+  const gen = generator(10);
+  
+  console.log(gen.next().value);
+  console.log(gen.next().value);
