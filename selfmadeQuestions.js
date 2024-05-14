@@ -106,8 +106,38 @@
 
 ////////////////////////////////////////////////////////////
 
-function bark() {
-    console.log('Woof!');
+// function bark() {
+//     console.log('Woof!');
+//   }
+  
+//   bark.animal = 'dog';
+
+
+/////////////////////////////////////////////////////////////
+
+
+function Person(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
   }
   
-  bark.animal = 'dog';
+  const member = new Person('Lydia', 'Hallie');
+  Person.getFullName = ()=> {
+    return `${this.firstName} ${this.lastName}`;
+  };
+  
+//   console.log(member.getFullName());
+
+
+  class car{
+    tyre(){
+        console.log("Tyres are running")
+    }
+  }
+
+  let carData = new car()
+  carData.tyre();
+  carData.wheel = ()=>{
+    console.log("One wheel is running");
+  }
+  carData.wheel();
