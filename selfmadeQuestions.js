@@ -228,7 +228,7 @@
 // sessionStorage.setItem('cool_secret', 123);
 
 
-const person = { name: 'Lydia' };
+// const person = { name: 'Lydia' };
 
 // function sayHi(age) {
 //   return `${this.name} is ${age}`;
@@ -266,12 +266,35 @@ const person = { name: 'Lydia' };
 
 
 
-function* generator(i) {
-    yield i;
-    yield i * 2;
-  }
+// function* generator(i) {
+//     yield i;
+//     yield i * 2;
+//   }
   
-  const gen = generator(10);
+// //   const gen = generator(10);
   
-  console.log(gen.next().value);
-  console.log(gen.next().value);
+// //   console.log(gen.next().value);
+// //   console.log(gen.next().value);
+
+
+// // const arr = [1,2,3,4,56,5,5,5,5,5,48,8489,49,4,9,4];
+
+
+// // deep copy and shallow copy
+
+
+// // Deep Copy because primative data type always 
+// let originalValue = 10
+// let copyValue = originalValue
+
+// console.log(originalValue);
+// console.log(copyValue);
+
+
+// copyValue = 100
+
+
+// console.log(originalValue);
+// console.log(copyValue);
+
+
