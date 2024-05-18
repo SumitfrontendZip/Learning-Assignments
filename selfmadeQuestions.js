@@ -308,13 +308,24 @@
 //  console.log(sayHi.call(obj));
 
  
+//  var obj = {name:"sumit"}
+
+//  function sayHi(age ,profession){
+//     return "hii " + this.name + " is " + age + " and is an " + profession;
+//  }
+
+
+//  console.log(sayHi.apply(obj ,[24, "Software Engineer"] ));
+
+
+
  var obj = {name:"sumit"}
 
  function sayHi(age ,profession){
     return "hii " + this.name + " is " + age + " and is an " + profession;
  }
 
+ const bindFunc = sayHi.bind(obj);
 
- console.log(sayHi.apply(obj ,[24, "Software Engineer"] ));
-
-
+ console.log(bindFunc(24, "Software Engineer"));
+ console.log(bindFunc(21, "youtuber"));
