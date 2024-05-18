@@ -298,3 +298,11 @@
 // console.log(copyValue);
 
 
+ var obj = {name:"sumit"}
+
+ function sayHi(){
+    return "hii " + this.name;
+ }
+
+
+ console.log(sayHi.call(obj));
