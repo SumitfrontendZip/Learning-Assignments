@@ -319,13 +319,13 @@
 
 
 
- var obj = {name:"sumit"}
+//  var obj = {name:"sumit"}
 
- function sayHi(age ,profession){
-    return "hii " + this.name + " is " + age + " and is an " + profession;
- }
+//  function sayHi(age ,profession){
+//     return "hii " + this.name + " is " + age + " and is an " + profession;
+//  }
 
- const bindFunc = sayHi.bind(obj);
+//  const bindFunc = sayHi.bind(obj);
 
- console.log(bindFunc(24, "Software Engineer"));
- console.log(bindFunc(21, "youtuber"));
+//  console.log(bindFunc(24, "Software Engineer"));
+//  console.log(bindFunc(21, "youtuber"));
