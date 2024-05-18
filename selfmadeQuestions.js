@@ -298,11 +298,23 @@
 // console.log(copyValue);
 
 
+//  var obj = {name:"sumit"}
+
+//  function sayHi(){
+//     return "hii " + this.name;
+//  }
+
+
+//  console.log(sayHi.call(obj));
+
+ 
  var obj = {name:"sumit"}
 
- function sayHi(){
-    return "hii " + this.name;
+ function sayHi(age ,profession){
+    return "hii " + this.name + " is " + age + " and is an " + profession;
  }
 
 
- console.log(sayHi.call(obj));
+ console.log(sayHi.apply(obj ,[24, "Software Engineer"] ));
+
+
